@@ -2,5 +2,5 @@
 
 show processlist
 
-`show processlist`
+>`show processlist`
 

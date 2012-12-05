@@ -1,8 +1,8 @@
 #chown#
-change ownership recursively
+Change ownership recursively
 
-`chown -R owner:owner dirname`
+>`chown -R owner:owner dirname`
 
-`chown -R owner:owner .`
+>*or*
 
- 
+>`chown -R owner:owner .`
