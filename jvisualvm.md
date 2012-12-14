@@ -11,6 +11,6 @@ go to $JAVA_HOME/bin and create a file called `jstatd.all.policy` and paste thes
    
 Then start jstatd from the command line with :
     
-    `./jstatd -J-Djava.security.policy=jstatd.all.policy`
+    nohup jstatd -J-Djava.security.policy=jstatd.all.policy > jstatd.out 2>jstatd.err &
 
 
