@@ -1,28 +1,29 @@
-*Rbenv*
-Repository: https://github.com/sstephenson/rbenv#section_3.1
+# Rbenv
 
-Installation
+Repository: [Rbenv Section 3.1](https://github.com/sstephenson/rbenv#section_3.1)
 
->`brew update`
->`brew install rbenv`
->`brew install ruby-build`
+### Installation
 
-Upgrading
+  brew update
+  brew install rbenv
+  brew install ruby-build
 
->`brew upgrade rbenv`
+### Upgrading
 
-Listing Ruby Versions
+brew upgrade rbenv
 
->`rbenv versions`
+### Listing Ruby Versions
 
-Installing Rubies
+	rbenv versions
 
->`rbenv install 1.9.3-p354`
+### Installing Rubies
 
-Setting Global Ruby
+	rbenv install 1.9.3-p354`
 
->`rbenv global 1.9.3-p354`
+### Setting Global Ruby
 
-Initializing Project/Folder Ruby
+	rbenv global 1.9.3-p354
 
->`rbenv local 1.9.3-p354`
+### Initializing Project/Folder Ruby
+
+	rbenv local 1.9.3-p354
