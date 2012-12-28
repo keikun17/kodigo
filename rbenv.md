@@ -4,13 +4,13 @@ Repository: [Rbenv Section 3.1](https://github.com/sstephenson/rbenv#section_3.1
 
 ### Installation
 
-  brew update
-  brew install rbenv
-  brew install ruby-build
+	brew update
+	brew install rbenv
+	brew install ruby-build
 
 ### Upgrading
 
-brew upgrade rbenv
+	brew upgrade rbenv
 
 ### Listing Ruby Versions
 
