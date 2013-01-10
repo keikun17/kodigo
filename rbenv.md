@@ -27,3 +27,8 @@ Repository: [Rbenv Section 3.1](https://github.com/sstephenson/rbenv#section_3.1
 ### Initializing Project/Folder Ruby
 
 	rbenv local 1.9.3-p354
+
+
+### Rehash for your Gem bin shims
+
+	rbenv rehash
