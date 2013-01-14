@@ -9,4 +9,4 @@ resize window
 * `CTRL-W <` : width+1
 * `CTRL-W >` : widhth-1
 * `CTRL-W _` : set window to max height
-* `CTRL-W z{nr}<CR>` : height=nr
+* `z{nr}<CR>` : height=nr
