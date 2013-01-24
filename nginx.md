@@ -24,7 +24,17 @@
 	}
 
 
+## Adjusting max request body size
 
+usually for fixing *413 Request Entity Too Large nginx/1.2.1* errors.
 
+	# client_max_body_size <max size>
+	#
+	# Example :
+	# 
+	# server {
+	# 	other configs
+	#	client_max_body_size 20M;
+	# }
 
 	
