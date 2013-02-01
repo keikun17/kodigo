@@ -10,3 +10,6 @@ Dump window logs to a file (this writes the log file in the homedir in the forma
 	/lastlog -force 
 	/window log off 
 
+Close current window
+
+	/wc
