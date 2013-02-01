@@ -11,3 +11,7 @@ Clear screen
 Clear scrollback
 
     <prefix> :clear-history
+
+Log out other sessions in the current window (maybe bad sessions that causes window size to get stuck)
+
+    <prefix> D
