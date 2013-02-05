@@ -13,4 +13,4 @@ resize window
 
 new blank split
 
-    `Normal: CTRL-Wn` 
+    Normal: CTRL-Wn
