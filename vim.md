@@ -22,3 +22,7 @@ output the contents of the register
     
     Ctrl-R %
     // -> outputs path to current file
+
+show vimruntime 
+
+   :echo $VIMRUNTIME
