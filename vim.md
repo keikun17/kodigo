@@ -14,3 +14,11 @@ resize window
 new blank split
 
     Normal: CTRL-Wn
+
+output the contents of the register
+
+    // Any mode : Ctrl-R <register>
+    // example:
+    
+    Ctrl-R %
+    // -> outputs path to current file
