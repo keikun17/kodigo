@@ -25,4 +25,4 @@ output the contents of the register
 
 show vimruntime 
 
-   :echo $VIMRUNTIME
+    :echo $VIMRUNTIME
