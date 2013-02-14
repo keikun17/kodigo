@@ -26,3 +26,11 @@ output the contents of the register
 show vimruntime 
 
     :echo $VIMRUNTIME
+
+reload .vimrc
+
+    :so $MYVIMRC
+    
+source current file
+
+    :so %
