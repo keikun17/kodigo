@@ -15,6 +15,10 @@ resize window
 * `CTRL-W _` : set window to max height
 * `z{nr}<CR>` : height=nr
 
+close other tabs
+
+    :tabo
+
 new blank split
 
     Normal: CTRL-Wn
