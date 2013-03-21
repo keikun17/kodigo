@@ -42,3 +42,11 @@ reload .vimrc
 source current file
 
     :so %
+
+Reload all open buffers
+
+    :buffdo e
+
+Reload all visible windows
+
+    :windo e
