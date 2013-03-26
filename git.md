@@ -18,3 +18,7 @@ Update submodules
 Reset state if you pulled the changes from the wrong remote branch (e.g. in develop branch then pulled a topic branch that's not ready yet)
 
     git reset --hard ORIG_HEAD 
+
+Author + commit count
+
+    git shortlog -s -n
