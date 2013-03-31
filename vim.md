@@ -50,3 +50,7 @@ Reload all open buffers
 Reload all visible windows
 
     :windo e
+
+vimcrypt / encyrpt things
+
+    :X
