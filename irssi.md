@@ -17,3 +17,7 @@ Close current window
 With the nicklist plugin, run in screen +this command display the list of users in the sidebar
 
     /nicklist screen
+
+Clear all windows
+
+    /clear -all
