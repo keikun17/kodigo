@@ -54,3 +54,8 @@ Reload all visible windows
 vimcrypt / encyrpt things
 
     :X
+
+Profiling vim's startup and first opening of a file
+
+    // vim --startuptime logfile.log firstfile.rb
+    vim --startuptime startup.log config/application.rb
