@@ -22,3 +22,8 @@ Reset state if you pulled the changes from the wrong remote branch (e.g. in deve
 Author + commit count
 
     git shortlog -s -n
+
+Clone specific branch
+
+    git clone -b <branch-name> <repo-url>
+    // ex. git clone -b 3.0.0-wip https://github.com/twitter/bootstrap.git
