@@ -10,6 +10,10 @@ Change remote url
 
     // ex. Github Project 'islands' handed over to 'china' organization
     git remote set-url origin git@github.com:china
+    
+Delete remote branch
+
+    git push origin --delete <branchName>
 
 Update submodules
 
