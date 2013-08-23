@@ -10,4 +10,4 @@ Then to load mongodb now:
 
 Or, if you don't want/need launchctl, you can just run:
 
-    mongodb
+    mongod
