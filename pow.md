@@ -7,3 +7,7 @@ Setup 'http://myapp.dev'
 
     cd ~/.pow
     ln -s /path/to/myapp
+
+Restart rails app
+
+    touch tmp/restart.txt
