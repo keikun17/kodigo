@@ -11,3 +11,12 @@ Setup 'http://myapp.dev'
 Restart rails app
 
     touch tmp/restart.txt
+
+View pow access log
+
+    tail -f ~/Library/Logs/Pow/access.log
+    
+View 'myapp' logs
+
+    tail -f ~/Library/Logs/Pow/apps/myapp.log
+    
