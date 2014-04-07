@@ -1,5 +1,17 @@
 # Docker
 
+List images
+
+    $ docker images
+
+List running docker processes
+
+    $ docker ps -l
+
+Inspect a container/image (image = container, same thing)
+
+    $ docker inspect <CONTAINER_ID/IMAGE_ID>
+
 Login to central repo
 
     $ sudo docker login
