@@ -19,3 +19,7 @@ Log out other sessions in the current window (maybe bad sessions that causes win
 Maximize Pane (to minimize pain in small screens)
 
     <previx> z
+
+Reload source
+
+    :source-file ~/.tmux.conf
