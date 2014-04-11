@@ -31,6 +31,17 @@ Push
     // sudo docker commit <username>/<imagename>
     $ sudo docker push keikun17/appname
 
+Container cleanup
+
+    docker stop $(docker ps -a -q)
+    docker rm $(docker ps -a -q)
+
+Image cleanup
+
+    docker stop $(docker ps -a -q)
+    docker rm $(docker ps -a -q)
+    docker rmi $(docker images -a -q)
+
 # boot2docker
 
 install on OSX (follow instructions on [their github page](https://github.com/boot2docker/boot2docker)).
