@@ -35,7 +35,7 @@ list sessions
 
 Attach to a numbered session
 
-    tmux attach-session
+    tmux attach-session -t <session_number>
 
 Start a named session
 
