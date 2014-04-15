@@ -7,7 +7,7 @@ Swap window order
 Clear screen
 
     <prefix> :send-keys -R
-    
+
 Clear scrollback
 
     <prefix> :clear-history
@@ -23,3 +23,28 @@ Maximize Pane (to minimize pain in small screens)
 Reload source
 
     :source-file ~/.tmux.conf
+
+Sessions
+----
+
+list sessions
+
+    tmux ls
+    # or
+    tmux list-sessions
+
+Attach to a numbered session
+
+    tmux attach-session
+
+Start a named session
+
+    tmux new -s <session_name>
+
+Attach to a named session
+
+    tmux attach -t <session_name>
+
+Switch to a named session
+
+    tmux switch -t <session_name>
