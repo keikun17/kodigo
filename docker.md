@@ -46,6 +46,10 @@ Build and name new image from Dockefile
 
     docker build -t new_image_name - < Dockerfile
 
+Build and ignore cache (or rebuild cache)
+
+    docker build -no-cache new_image_name - < Dockerfile
+
 # boot2docker
 
 install on OSX (follow instructions on [their github page](https://github.com/boot2docker/boot2docker)).
