@@ -28,18 +28,18 @@ output the contents of the register
 
     // Any mode : Ctrl-R <register>
     // example:
-    
+
     Ctrl-R %
     // -> outputs path to current file
 
-show vimruntime 
+show vimruntime
 
     :echo $VIMRUNTIME
 
 reload .vimrc
 
     :so $MYVIMRC
-    
+
 source current file
 
     :so %
@@ -61,7 +61,7 @@ Profiling vim's startup and first opening of a file
     // vim --startuptime logfile.log firstfile.rb
     // then `:tabe logfile.log` to open log
     vim --startuptime startup.log config/application.rb
-    
+
 Finding out which .vim file has set a map
-    
+
     :verbose map [keycombo]
