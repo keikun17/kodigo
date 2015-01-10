@@ -14,6 +14,7 @@ resize pane
 * `CTRL-W >` : widhth-1
 * `CTRL-W _` : set window to max height
 * `z{nr}<CR>` : height=nr
+* `CTRL-_` : set pane heights to max
 * `CTRL-=` : set pane heights in the same column to be equal
 
 close other tabs
