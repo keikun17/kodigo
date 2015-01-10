@@ -7,13 +7,14 @@ show all loaded vimscripts
 change :pwd to current file's dir
 
     :cd %:p:h
-    
-resize window
-    
+
+resize pane
+
 * `CTRL-W <` : width+1
 * `CTRL-W >` : widhth-1
 * `CTRL-W _` : set window to max height
 * `z{nr}<CR>` : height=nr
+* `CTRL-=` : set pane heights in the same column to be equal
 
 close other tabs
 
