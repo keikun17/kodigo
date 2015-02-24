@@ -28,4 +28,16 @@ Add these lines to the boot file. On Rails, maybe `features/support/env.rb`
     end
 
     page.find('#something').trigger(:mouseover)
-    
+
+### Test contents of new window opened by clicking a link / pressing a button.
+
+    new_window = window_opened_by { click_link "Call DR House (Opens a new tab)" }
+
+    within_window(new_window) do
+
+      # To check that there is a pop up
+      page.driver.browser.window_handles.length.should == 2
+
+      expect(page).to have_text("It's not lupus")
+
+    end
