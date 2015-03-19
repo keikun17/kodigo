@@ -31,3 +31,15 @@ Clone specific branch
 
     git clone -b <branch-name> <repo-url>
     // ex. git clone -b 3.0.0-wip https://github.com/twitter/bootstrap.git
+    
+# Cleanup 
+
+Reset changes
+
+    git checkout .
+    # or 
+    git reset --hard
+   
+Reset changes including untracked files
+
+    git clean -fd
