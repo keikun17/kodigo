@@ -48,3 +48,15 @@ Attach to a named session
 Switch to a named session
 
     tmux switch -t <session_name>
+    
+
+Detaching Sessions
+----
+
+Detach all other sessions except current
+
+    tmux detach -a
+
+Select a session to detach
+
+    <prefix>D
