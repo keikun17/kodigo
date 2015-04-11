@@ -66,3 +66,9 @@ Profiling vim's startup and first opening of a file
 Finding out which .vim file has set a map
 
     :verbose map [keycombo]
+    
+## Fold
+
+Unfold everything
+
+    zR
