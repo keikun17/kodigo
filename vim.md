@@ -8,6 +8,10 @@ change :pwd to current file's dir
 
     :cd %:p:h
 
+Find out what keystroke combination does and where it was set
+
+    :verbose map {keystroke}      // :verbose map <C-b>
+
 resize pane
 
 * `CTRL-W <` : width+1
