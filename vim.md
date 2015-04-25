@@ -76,3 +76,14 @@ Finding out which .vim file has set a map
 Unfold everything
 
     zR
+    
+## Registers
+
+Yanking and pasting from registers (useful when pasting over multiple things without overriding the thing you want to replace them with)
+
+1. select text
+2. `"ay` - yank text into the 'a' register
+3. select thing to replace
+4. `"ap` - paste text from the 'a' register
+
+key verb for register is `"<register>`
