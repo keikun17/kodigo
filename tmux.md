@@ -27,6 +27,14 @@ Reload source
 Sessions
 ----
 
+Create named sesion
+
+    $ tmux new -s <session-name>
+    
+Rename current session
+
+    <prefix> $ 
+
 list sessions
 
     tmux ls
