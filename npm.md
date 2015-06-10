@@ -24,6 +24,18 @@ Install and register to `package.json`
 
     npm install -g <package-name> --save-dev
 
+Explanation of flags
+
+- --save: Package will be removed from your dependencies.
+
+- --save-dev: Package will be removed from your devDependencies.
+
+- --save-optional: Package will be removed from your optionalDependencies.
+
+Remove package 
+
+    npm uninstall <package-name> [--save-dev|--save|--save-optional]
+
 When to use local vs global (from https://docs.npmjs.com/files/folders):
 
 - Local install (default): puts stuff in ./node_modules of the current package root.
