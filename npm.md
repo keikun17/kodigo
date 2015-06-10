@@ -20,6 +20,10 @@ Install globally
 
     npm install -g <package-name>
 
+Install and register to `package.json`
+
+    npm install -g <package-name> --save-dev
+
 When to use local vs global (from https://docs.npmjs.com/files/folders):
 
 - Local install (default): puts stuff in ./node_modules of the current package root.
