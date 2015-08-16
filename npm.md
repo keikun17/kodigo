@@ -26,7 +26,7 @@ Install and register to `package.json`
     
 Update and register to `package.json`
 
-    npm update <package-name> --save
+    npm install <package-name>@<version> --save
     
 Remove package 
 
