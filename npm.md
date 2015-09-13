@@ -7,8 +7,6 @@
 ### Upgrade
 
     npm install npm -g
-
-check version with 
   
 ## Packages
 
@@ -19,6 +17,11 @@ Install locally (in present working directory) to `./node_modules`
 Install globally 
 
     npm install -g <package-name>
+
+
+Check versions of package available in npm
+
+    npm view <package> versions
 
 Install and register to `package.json`
 
