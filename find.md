@@ -16,3 +16,7 @@ Recusively grep through files with a given extension within the present director
 find all new files created within 24 hours
 	
 	find . -newerBt "24 hours ago" 
+	
+set and persist environment variable
+
+    set -U SECREY_KEY sUp3rsecretK3y
