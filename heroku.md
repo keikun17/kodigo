@@ -22,3 +22,7 @@ open heroku url for current dir's heroku app
 stream heroku app's production log
 
     heroku logs --tail
+
+Run `rake db:seed` on Heroku
+
+    heroku run rake db:seed
