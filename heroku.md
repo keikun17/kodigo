@@ -26,3 +26,7 @@ stream heroku app's production log
 Run `rake db:seed` on Heroku
 
     heroku run rake db:seed
+    
+Set an environmental var on heroku
+
+   heroku config:set SECRET_KEY_BASE='secretkeybasehere'
