@@ -27,6 +27,13 @@ Run `rake db:seed` on Heroku
 
     heroku run rake db:seed
     
-Set an environmental var on heroku
+Set an environment var on heroku
 
-   heroku config:set SECRET_KEY_BASE='secretkeybasehere'
+    heroku config:set SECRET_KEY_BASE='secretkeybasehere'
+
+Run remote command
+
+    heroku run rake db:migrate
+    heroku run rake db:version
+    heroku run rake update_profiles
+    
