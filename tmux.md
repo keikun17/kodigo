@@ -16,13 +16,36 @@ Log out other sessions in the current window (maybe bad sessions that causes win
 
     <prefix> D
 
+Reload source
+
+    :source-file ~/.tmux.conf
+    
+Panes
+-----
 Maximize Pane (to minimize pain in small screens)
 
     <previx> z
 
-Reload source
+Switch Pane positions
 
-    :source-file ~/.tmux.conf
+    <prefix> {
+    <prefix> }
+    
+Move Pane to its own window
+
+    <prefix> !
+    
+Show Pane number
+
+    <prefix> q
+Move Pane to another existing window
+
+    // <tmux command mode>
+    :move-pane -t :TARGET_WINDOW_NUM.NEW_PANE_NUMBER  // use <prefix-q> to find pane number
+    // Example : To move current pane to window 1
+    // :move-pane -t :1.1
+
+
 
 Sessions
 ----
