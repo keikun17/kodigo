@@ -30,3 +30,19 @@ class UsersController < ApplicationController
   end
 end
 ```
+
+### GOTCHAS
+
+For Rails 5 beta, Here's the Gemset that works
+
+```
+group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'pry'
+  gem 'byebug'
+  gem 'pry-byebug', '1.3.3'
+  gem 'pry-remote'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
+end
+```
