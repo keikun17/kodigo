@@ -1,7 +1,13 @@
 # foreman
 
+Start all
+
      foreman start -f Procfile.dev
 
+Start particular task (ex. client, web, etc)
+
+     foreman start web -f Procfile.dev
+     foreman start client -f Procfile.dev
 
 ### Procfile format
 
