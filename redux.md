@@ -1,6 +1,25 @@
 #REDUX
 
-combineReducers
+## Reducers
+
+A pure function
+
+used to create a store (using the createStore function from Redux)
+
+import { createStore } from 'redux'
+
+const someReducer = (state, action) {
+  switch(action.type) {
+    case "SOME ACTION":
+      return state.some_state_attribute = "some mutation"
+    default:
+      state
+  }
+}
+
+someStore = createStore(somereducer)
+
+## combineReducers
 
 ```javascript
 import { combineReducers } from 'redux'
@@ -17,4 +36,3 @@ const myApp = combineReducers({reducerOne, reducerTwo})
 //  }
 }
 ```
-
