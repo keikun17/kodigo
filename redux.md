@@ -6,6 +6,7 @@ A pure function
 
 used to create a store (using the createStore function from Redux)
 
+```javascript
 import { createStore } from 'redux'
 
 const someReducer = (state, action) {
@@ -16,6 +17,7 @@ const someReducer = (state, action) {
       state
   }
 }
+```
 
 someStore = createStore(somereducer)
 
