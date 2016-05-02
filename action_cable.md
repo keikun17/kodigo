@@ -1,5 +1,28 @@
 # Action Cable
 
+
+## To broadcast
+
+`ActionCable.server.broadcast(channel, args)`
+
+Ex.
+```ruby
+class UserGamesChannel < ApplicationCable::Channel
+  def subscribed
+    stream_from "user_games-#{current_user.id}"
+  end
+
+  def add_game(data)
+    game = Game.find_by(name: data['game'])
+    current_user.games << game
+    ActionCable.server.broadcast "user_games-#{current_user.id}",
+      games: current_user.games.map(&:name),
+      type: 'GAME_ADDED'
+  end
+```
+
+---
+
 ## Minimum setup required to get action cable working on Rails
 
 ### Action Cable has three required configurations:
