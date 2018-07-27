@@ -27,6 +27,7 @@ Models
 | Get last (by id)     | user = User.last                           | user = Repo.one(from u in User, order: [desc: u.id], limit: 1) |
 | ... then Update field| user.name = "kapitolon"                    | changeset = User.changeset(user, %{name: "kapitolin"}) |
 | ... then save        | user.save                                  | Repo.update(changeset)                   |
+| ... then delete      | user.destroy                               | Repo.delete(user)                        |
 
 
 Generate Scaffold
