@@ -24,6 +24,7 @@ Models
 | Find All             | User.all                                   | Repo.all(User)                           |
 | Find by ID           | User.find(1)                               | Repo.get!(User, 1)                       |
 | Find by field        | User.where(username: "kapitolin")          | Repo.get_by(User, username: "kapitolin") |
+| Get last (by id)     | User.last                                  | Repo.one(from u in User, order: [desc: u.id], limit: 1) |
 
 
 Generate Scaffold
