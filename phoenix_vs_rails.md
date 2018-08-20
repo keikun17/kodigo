@@ -6,6 +6,7 @@ Commands
 | create migration     | rails g migration create_games_users_table | mix ecto.gen.migration create_games_user |
 | run migration        | bundle exec rake db:migrate                | mix ecto.migrate                         |
 | rollback migration   | rails db:rollback                          | mix ecto.rollback                        |
+| rollback to version  | rake db:migrate:down VERSION=1234567       | mix ecto.rollback --to 1234567           |
 | rails console        | rails c                                    | iex -S mix                               |
 |                      | rake routes                                | mix phoenix.routes                       |
 | install dependencies | bundle install # from Gemfile              | mix deps.get # from  mix.exs             |
