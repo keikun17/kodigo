@@ -5,10 +5,11 @@ Commands
 | start server         | rails s -b 0.0.0.0                         | mix.server                               |
 | create migration     | rails g migration create_games_users_table | mix ecto.gen.migration create_games_user |
 | run migration        | bundle exec rake db:migrate                | mix ecto.migrate                         |
+| seed db              | rails db:seed                              | mix run priv/repo/seeds.exs              |
 | rollback migration   | rails db:rollback                          | mix ecto.rollback                        |
-| rollback to version  | rake db:migrate:down VERSION=1234567       | mix ecto.rollback --to 1234567           |
+| rollback to version  | rails db:migrate:down VERSION=1234567      | mix ecto.rollback --to 1234567           |
 | rails console        | rails c                                    | iex -S mix                               |
-|                      | rake routes                                | mix phoenix.routes                       |
+| Routes               | rake routes                                | mix phoenix.routes                       |
 | install dependencies | bundle install # from Gemfile              | mix deps.get # from  mix.exs             |
 | current rails version| rails --version                            | mix phoenix.new --version                |
 
